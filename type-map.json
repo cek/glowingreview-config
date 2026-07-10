@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "canonicalTypes": [
     "Sunscreen", "Cleanser", "Toner", "Essence", "Serum", "Moisturizer",
     "Face Mask", "Eye Care", "Lip Care", "Exfoliator", "Mist",
@@ -12,6 +12,8 @@
   "map": {
     "sephora": {
       "sunscreen": "Sunscreen",
+      "face sunscreen": "Sunscreen",
+      "body sunscreen": "Sunscreen",
       "face wash & cleansers": "Cleanser",
       "cleansers": "Cleanser",
       "toners": "Toner",
