@@ -1,38 +1,31 @@
 {
-  "version": 3,
+  "version": 4,
   "canonicalTypes": [
     "Sunscreen", "Cleanser", "Toner", "Essence", "Serum", "Moisturizer",
     "Face Mask", "Eye Care", "Lip Care", "Exfoliator", "Mist",
     "Foundation", "Concealer", "Primer", "Powder", "Blush", "Bronzer",
     "Highlighter", "Mascara", "Eyeliner", "Eyeshadow", "Brow",
     "Lipstick", "Lip Gloss", "Lip Liner",
-    "Shampoo", "Conditioner", "Hair Treatment", "Hair Styling",
+    "Shampoo", "Conditioner", "Hair Treatment", "Hair Styling", "Hair Mask",
     "Body Wash", "Body Lotion", "Hand Cream", "Fragrance", "Tools"
   ],
   "canonicalDepartments": [
     "Skincare", "Makeup", "Hair", "Fragrance", "Bath & Body", "Nails", "Tools"
   ],
-  "departmentMap": {
-    "sephora": {
-      "skin care": "Skincare",
-      "skincare": "Skincare",
-      "makeup": "Makeup",
-      "hair": "Hair",
-      "fragrance": "Fragrance",
-      "bath & body": "Bath & Body",
-      "tools & brushes": "Tools",
-      "nails": "Nails"
-    },
-    "yesstyle": {
-      "skincare": "Skincare",
-      "makeup": "Makeup",
-      "hair care": "Hair",
-      "hair": "Hair",
-      "fragrance": "Fragrance",
-      "bath & body": "Bath & Body",
-      "nail": "Nails",
-      "nails": "Nails"
-    }
+  "typeDepartments": {
+    "Sunscreen": "Skincare", "Cleanser": "Skincare", "Toner": "Skincare",
+    "Essence": "Skincare", "Serum": "Skincare", "Moisturizer": "Skincare",
+    "Face Mask": "Skincare", "Eye Care": "Skincare", "Lip Care": "Skincare",
+    "Exfoliator": "Skincare", "Mist": "Skincare",
+    "Foundation": "Makeup", "Concealer": "Makeup", "Primer": "Makeup",
+    "Powder": "Makeup", "Blush": "Makeup", "Bronzer": "Makeup",
+    "Highlighter": "Makeup", "Mascara": "Makeup", "Eyeliner": "Makeup",
+    "Eyeshadow": "Makeup", "Brow": "Makeup",
+    "Lipstick": "Makeup", "Lip Gloss": "Makeup", "Lip Liner": "Makeup",
+    "Shampoo": "Hair", "Conditioner": "Hair", "Hair Treatment": "Hair",
+    "Hair Styling": "Hair", "Hair Mask": "Hair",
+    "Body Wash": "Bath & Body", "Body Lotion": "Bath & Body", "Hand Cream": "Bath & Body",
+    "Fragrance": "Fragrance", "Tools": "Tools"
   },
   "map": {
     "sephora": {
@@ -62,7 +55,8 @@
       "lipstick": "Lipstick",
       "lip gloss": "Lip Gloss",
       "shampoo": "Shampoo",
-      "conditioner": "Conditioner"
+      "conditioner": "Conditioner",
+      "hair masks": "Hair Mask"
     },
     "yesstyle": {
       "sunscreens": "Sunscreen",
