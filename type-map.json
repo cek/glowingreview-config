@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "canonicalTypes": [
     "Sunscreen", "Cleanser", "Toner", "Essence", "Serum", "Moisturizer",
     "Face Mask", "Eye Care", "Lip Care", "Exfoliator", "Mist",
@@ -35,6 +35,18 @@
     "bath & body": "Bath & Body", "body care": "Bath & Body",
     "nail": "Nails", "nails": "Nails",
     "tools & brushes": "Tools", "tools": "Tools"
+  },
+  "pao": {
+    "Mascara": 3, "Eyeliner": 6,
+    "Foundation": 12, "Concealer": 12, "Primer": 12,
+    "Powder": 24, "Blush": 24, "Bronzer": 24, "Highlighter": 24, "Eyeshadow": 24, "Brow": 24,
+    "Lipstick": 12, "Lip Gloss": 12, "Lip Liner": 12, "Lip Care": 12,
+    "Sunscreen": 12, "Cleanser": 12, "Toner": 12, "Essence": 12, "Serum": 12,
+    "Moisturizer": 12, "Face Mask": 12, "Eye Care": 12, "Exfoliator": 12, "Mist": 12,
+    "Shampoo": 18, "Conditioner": 18, "Hair Treatment": 18, "Hair Styling": 18, "Hair Mask": 18,
+    "Body Wash": 18, "Body Lotion": 18, "Hand Cream": 18,
+    "Fragrance": 36,
+    "*": 12
   },
   "map": {
     "sephora": {
