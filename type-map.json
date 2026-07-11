@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "canonicalTypes": [
     "Sunscreen", "Cleanser", "Toner", "Essence", "Serum", "Moisturizer",
     "Face Mask", "Eye Care", "Lip Care", "Exfoliator", "Mist",
@@ -26,6 +26,15 @@
     "Hair Styling": "Hair", "Hair Mask": "Hair",
     "Body Wash": "Bath & Body", "Body Lotion": "Bath & Body", "Hand Cream": "Bath & Body",
     "Fragrance": "Fragrance", "Tools": "Tools"
+  },
+  "rootDepartments": {
+    "skincare": "Skincare", "skin care": "Skincare", "sun care": "Skincare",
+    "makeup": "Makeup", "make up": "Makeup",
+    "hair": "Hair", "hair care": "Hair",
+    "fragrance": "Fragrance", "perfume": "Fragrance",
+    "bath & body": "Bath & Body", "body care": "Bath & Body",
+    "nail": "Nails", "nails": "Nails",
+    "tools & brushes": "Tools", "tools": "Tools"
   },
   "map": {
     "sephora": {
